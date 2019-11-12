@@ -1,19 +1,23 @@
 import React from 'react'
 import 'normalize.css/normalize.css'
-import '../styles/App.css'
-import { Provider } from 'react-redux'
-import store from '../store'
+import '../styles/base.css'
+import {Provider} from "react-redux"
+import store from "../redux/store"
+import Filter from './Section1'
+import Image from './Section2'
+import Cart from './Section3'
 
-import Button from './Button'
-import Greeting from './Greeting'
+function App() {
 
-export default props => {
-  return (
-    <Provider store={store}>
-      <div>
-        <Button />
-        <Greeting />
-      </div>
-    </Provider>
+return (
+  <Provider store={store}>
+    <div className="appcontainer">
+      <Filter/>
+      <Image />
+      <Cart />
+    </div>
+  </Provider>
   )
 }
+
+export default App

@@ -1,0 +1,144 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+
+
+.appcontainer {background: none;
+display: flex;
+margin: 0;}
+
+
+/* Section 1 CSS */
+
+.section1 {width: 20%;
+display: flex;
+margin-top:5%}
+
+.sec1filter {display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 15%;
+padding-top: 0%;
+padding-bottom: 0;}
+
+.sec1text {padding: 15%;
+padding-top: 0%;
+padding-bottom: 0%;}
+
+.sec1button {margin: 0%;
+margin-left: 20%}
+
+.round {border-radius: 50%;
+height: 40px;
+width: 40px;
+color: black;
+background: gray;
+font-size: 12px;}
+
+.sec1title{padding: 15%;
+padding-bottom: 0;
+margin-bottom: 0;
+margin-top: 0%;
+padding-top: 0%;}
+
+ul, li {list-style: none}
+
+/* Section 1 CSS  */
+
+
+/* Section 2 CSS */
+
+.section2 {width: 70%;
+margin-top: 5%;}
+
+
+.itemsbox {
+    display: flex;
+flex-wrap: wrap;}
+    
+.itembox {
+width: 25%;
+margin-bottom: 3%;}
+
+.itembox:hover {border: 1px solid gray}
+
+.sec2img {width: 100%;}
+
+
+.shipping {border: 1px solid black;
+color: white;
+background: black;
+width: 40%;
+display: flex;
+margin: 5px;}
+
+.itemtitle {font-size: 100%;
+display: flex;
+justify-content: center;
+margin-bottom: 0%;}
+
+.price {display: flex;
+justify-content: center;
+margin-bottom: 0%;
+margin-top: 0%;}
+
+.quantity {display: flex;
+justify-content: center;
+margin-top: 0%;}
+
+.addtocart {background: black;
+color: white;
+border: none;
+width: 100%;
+height: 50px;
+margin: auto;}
+
+.cartflex {justify-content: center;
+display: flex;
+margin: 5%;}
+
+.addtocart:hover {background:orange;}
+
+.dash {color: orange;
+font-size: 30px;
+margin: 0%;
+display: flex;
+justify-content: center;}
+
+.sec2bar {display: flex;}
+
+
+/* section 2 CSS */
+
+/* Section 3 CSS */
+
+.section3 {width: 30%;
+    background: black;
+margin-top: 5%;}
+
+.sec3img {width: 100%;}
+
+.itemtitle3{color: white;
+width: 20px;
+margin: 0;}
+
+.itemstyle3 {color: white;}
+
+.itemquantity3{color: white;}
+
+.price3{color: white;}
+
+.quantity3 {color: white;}
+
+.exit {color: white;
+font-size: 10%;}
+
+.itembox3 {display: flex;
+border-top: 1px solid white;}
+
+.c1 {width: 25%;}
+.c2 {width: 50%;}
+.c3 {width: 25%;}
+
+
+
